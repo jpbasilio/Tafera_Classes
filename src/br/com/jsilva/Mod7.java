@@ -12,10 +12,11 @@ public class Mod7 {
         caneta.setPonta(0.7f);
         caneta.setFuncao("Caneta Esferográfica");
 
-        System.out.println(caneta.getModelo());
-        System.out.println(caneta.getCor());
-        System.out.println(caneta.getPonta());
-        System.out.println(caneta.getFuncao());
+        System.out.println("\t**Caneta**");
+        System.out.println("Modelo: " + caneta.getModelo());
+        System.out.println("Cor: " + caneta.getCor());
+        System.out.println("Ponta(m.m): " + caneta.getPonta());
+        System.out.println("Função: " + caneta.getFuncao());
 
     }
 }
